@@ -5,8 +5,18 @@ html * {
 }
 
 body {
+  margin: 0;
   background-color: #47434C;
   color: #F7F7F7;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h4 {
+  margin: 0;
 }
 
 fieldset {
@@ -14,21 +24,33 @@ fieldset {
   margin: auto;
 }
 
-#title_info {
+hr {
+  width: 90%;
+}
+
+/* #title_info {
   text-align: center;
-  flex: 1;
+}
+
+#footer_info {
+  text-align: center;
 }
 
 #main_form {
   text-align: center;
-  flex: 1;
-}
+} */
 
 #main_wrapper {
-  overflow: auto;
-  width: 500px;
-  /* display: flex;
-  flex-direction: column; */
-  margin: auto;
   background-color: #39363D;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 100%;
+}
+
+.text_align_object {
+  text-align: center;
 }
